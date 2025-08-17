@@ -4,6 +4,7 @@
   "description": "A simple Node.js server to provide current UTC time",
   "type": "module",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
